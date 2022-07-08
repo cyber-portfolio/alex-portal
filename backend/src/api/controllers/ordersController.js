@@ -4,8 +4,8 @@ import asyncHandler from 'express-async-handler'
 import CoinPayments from 'coinpayments'
 
 const client = new CoinPayments({
-    key: "222ec126f48c4fb637b27248634252770a39c9b9d6886b464c555345bd51744c",
-    secret: "81E64a3E369234f40d55d61FAadAb24E109AA1aB9dBcD998b4d413dE5B20340b"
+    key: process.env.KEY,
+    secret: process.env.SECRET
   });
 
 export const createOrder = asyncHandler(async (req, res) => {
