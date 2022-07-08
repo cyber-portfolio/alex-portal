@@ -38,7 +38,7 @@ I used number of different technologies
 
 ## Installation
 
-This MERN Boilerplate requires these technologies to run:
+This MERN project requires these technologies to run:
 
 - [Node.js](https://nodejs.org/) v12+
 - [MongoDB](https://mongodb.com/) ether local MongoDB or MongoDB Atlas
